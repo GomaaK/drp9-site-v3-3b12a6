@@ -241,3 +241,9 @@ main:focus{outline:none}
 .ld-skip{pointer-events:auto;margin-left:auto;height:36px;padding:0 18px;border-radius:20px;border:1px solid var(--line);background:rgba(22,25,23,.6);color:var(--mut);font:500 14px 'Inter';cursor:pointer}.ld-skip:hover,.ld-skip:focus-visible{border-color:var(--lilac);color:var(--lilac)}.ld-skip:disabled{opacity:.4}.ld-top .ld-tag{margin-left:auto}.ld-top .ld-skip{margin-left:16px}
 @media (max-width:760px){.ld-tag{display:none}.ld-top .ld-skip{margin-left:auto}}
 .top ul a{padding:11px 6px}.top ul{gap:20px}
+
+/* v3: the logo is the name, so the text title is kept for screen readers and search only */
+.sr{position:absolute!important;width:1px;height:1px;margin:-1px!important;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.eco-logo{height:58px;width:200px;margin-bottom:26px}
+.eco-card small{margin-top:0}
+.eco-card p{margin-top:12px}
